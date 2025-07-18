@@ -239,4 +239,4 @@ Análisis técnico: Nivel profesional
 
 Desarrollado para el QA Challenge de Relke
 Tiempo de desarrollo: 1 día
-Fecha: 17-07-2025
+Fecha: 17-07-2025.
