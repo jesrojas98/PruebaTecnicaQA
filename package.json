@@ -2,11 +2,44 @@
   "name": "qa-playwright-relke",
   "version": "1.0.0",
   "scripts": {
-    "test": "playwright test",
+    "test": "npx playwright test tests/crear-nota-venta-final.spec.js",
+    "test:all": "npx playwright test",
+    "test:headed": "npx playwright test tests/crear-nota-venta-final.spec.js --headed",
+    "test:debug": "npx playwright test tests/crear-nota-venta-final.spec.js --debug",
+    "test:report": "npx playwright test --reporter=html",
+    "show-report": "npx playwright show-report",
+    "install-browsers": "npx playwright install",
     "codegen": "playwright codegen"
   },
   "devDependencies": {
     "@playwright/test": "^1.54.1",
     "typescript": "^5.3.3"
-  }
+  },
+  "description": "Mi solución al challenge técnico de QA para Relke usando Playwright",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.54.1",
+    "playwright-core": "^1.54.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesrojas98/PruebaTecnicaQA.git"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "qa",
+    "automation",
+    "e2e"
+  ],
+  "author": "Jesús Rojas jesusalerojasguti@gmail.com",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jesrojas98/PruebaTecnicaQA/issues"
+  },
+  "homepage": "https://github.com/jesrojas98/PruebaTecnicaQA#readme"
 }
